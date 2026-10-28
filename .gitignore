@@ -1,0 +1,15 @@
+# Data: not public until release is confirmed
+csv/
+parquet/
+
+# Large outputs you can regenerate
+results/
+*.parquet
+*.csv
+
+# Python and Jupyter clutter
+__pycache__/
+.ipynb_checkpoints/
+
+# Test notebooks
+0_setup.ipynb
